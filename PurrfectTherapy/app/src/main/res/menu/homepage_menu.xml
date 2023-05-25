@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemMap"
+        android:title="Map" />
+    <item
+        android:id="@+id/menuItemProfile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/menuItemHomeHelp"
+        android:title="Help" />
+</menu>

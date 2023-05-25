@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10sp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A23CB5"
+            android:backgroundTint="@color/teal_700"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:paddingTop="5sp"
+            android:paddingBottom="5sp"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+            app:navigationIcon="@drawable/catlogosmol"
+
+            app:navigationIconTint="#EFEEEE"
+            app:title="Purrfect Therapy"
+            app:titleCentered="true" />
+
+
+        <!-- Category Buttons -->
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="serif"
+        android:text="Booked Cat Info"
+        android:textColor="#244747"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewRented"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp" />
+
+</LinearLayout>
